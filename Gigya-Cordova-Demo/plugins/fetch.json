@@ -1,0 +1,53 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-gigya": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gigya/cordova-plugin-gigya",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {
+            "GOOGLE_IOS_CLIENT_ID": "224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h.apps.googleusercontent.com"
+        }
+    },
+    "es6-promise-plugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/vstirbu/PromisesPlugin.git",
+            "subdir": "."
+        },
+        "is_top_level": false,
+        "variables": {}
+    },
+    "cordova-plugin-facebook4": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gigya/cordova-plugin-facebook4",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {
+            "APP_ID": "368592606648443",
+            "APP_NAME": "Gigya-Mobile-Demos"
+        }
+    },
+    "cordova-plugin-googleplus": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gigya/cordova-plugin-googleplus",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {
+            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.gigya.cordovaDemo"
+        },
+        "cordova-plugin-gigya": {
+            "GOOGLE_IOS_CLIENT_ID": "224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h.apps.googleusercontent.com",
+            "PACKAGE_NAME": "com.gigya.cordovaDemo"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "368592606648443",
+            "APP_NAME": "Gigya-Mobile-Demos",
+            "PACKAGE_NAME": "com.gigya.cordovaDemo"
+        },
+        "cordova-plugin-googleplus": {
+            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h",
+            "PACKAGE_NAME": "com.gigya.cordovaDemo"
+        }
+    },
+    "dependent_plugins": {
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.gigya.cordovaDemo"
+        }
+    }
+}
