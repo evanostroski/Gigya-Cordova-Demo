@@ -16,6 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -28,6 +29,19 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        console.log('Hello me');
+        gigyaClient.init('3_hoQxVv5W44L7c5fhBbaDFi9gOaaa2ZpbrBXlmlJoWISEk4D5J47X2iRnWwKnWyMW', 'us1.gigya.com');
+        console.log(gigyaClient.getVersion());
+        gigyaClient.addEventListener(gigyaClient.Event.LOGIN, this.onLogin);
+        gigyaClient.addEventListener(gigyaClient.Event.LOGOUT, this.onLogout);
+    },
+
+    onLogin: function() {
+        console.log('logged in');
+    },
+
+    onLogout: function() {
+        console.log('logged out');
     },
 
     // Update DOM on a Received Event

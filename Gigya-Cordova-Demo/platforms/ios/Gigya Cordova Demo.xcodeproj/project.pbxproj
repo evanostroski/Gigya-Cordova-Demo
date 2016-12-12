@@ -34,6 +34,7 @@
 		40220ABFA687447A9E342604 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFFDD2567AD499B9DDF3453 /* SystemConfiguration.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C386F5C154C14A78952B9DA4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E07DD1D9D35D45BD9070A35E /* libz.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
 		7D8C73C0D0A0400AB6ED2A53 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DADC095856E84EC889C07EAB /* libz.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F67A293B10CB42A89A305549 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4939C9290DAA440FB2678462 /* CDVLogger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		FAFFDD2567AD499B9DDF3453 /* SystemConfiguration.framework */ = {isa = PBXFileReference; name = "SystemConfiguration.framework"; path = "System/Library/Frameworks/SystemConfiguration.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 		E07DD1D9D35D45BD9070A35E /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		DADC095856E84EC889C07EAB /* libz.dylib */ = {isa = PBXFileReference; name = "libz.dylib"; path = "usr/lib/libz.dylib"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = compiled.mach-o.dylib; explicitFileType = undefined; includeInIndex = 0; };
+		4939C9290DAA440FB2678462 /* CDVLogger.m */ = {isa = PBXFileReference; name = "CDVLogger.m"; path = "cordova-plugin-console/CDVLogger.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		BEF9F02D8B414D51B5BDFB2E /* CDVLogger.h */ = {isa = PBXFileReference; name = "CDVLogger.h"; path = "cordova-plugin-console/CDVLogger.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +237,8 @@
 				E7D3F061EFD048CEB1EEB705 /* FacebookConnectPlugin.h */,
 				93486D65C066402290A326C9 /* GooglePlus.m */,
 				6C05018536CD48DFA2A55572 /* GooglePlus.h */,
+				4939C9290DAA440FB2678462 /* CDVLogger.m */,
+				BEF9F02D8B414D51B5BDFB2E /* CDVLogger.h */,
 			);
 			name = Plugins;
 			path = "Gigya Cordova Demo/Plugins";
@@ -349,6 +354,7 @@
 				8D2D82DB46BE4C6299CA6549 /* GigyaConnectPlugin.m in Sources */,
 				57846A7044C24353BB504814 /* FacebookConnectPlugin.m in Sources */,
 				3AEF46AC79EC4B8A8D5BFE16 /* GooglePlus.m in Sources */,
+				F67A293B10CB42A89A305549 /* CDVLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +386,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "Gigya Cordova Demo/Gigya Cordova Demo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				PRODUCT_NAME = "Gigya Cordova Demo";
@@ -411,7 +417,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "Gigya Cordova Demo/Gigya Cordova Demo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				PRODUCT_NAME = "Gigya Cordova Demo";
@@ -450,6 +456,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -475,6 +482,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};

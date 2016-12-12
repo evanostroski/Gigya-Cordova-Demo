@@ -22,6 +22,9 @@
         "cordova-plugin-googleplus": {
             "REVERSED_CLIENT_ID": "com.googleusercontent.apps.224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h",
             "PACKAGE_NAME": "com.gigya.cordovaDemo"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.gigya.cordovaDemo"
         }
     },
     "dependent_plugins": {

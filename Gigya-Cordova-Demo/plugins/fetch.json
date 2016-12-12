@@ -49,5 +49,13 @@
         "variables": {
             "REVERSED_CLIENT_ID": "com.googleusercontent.apps.224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h"
         }
+    },
+    "cordova-plugin-console": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-console"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

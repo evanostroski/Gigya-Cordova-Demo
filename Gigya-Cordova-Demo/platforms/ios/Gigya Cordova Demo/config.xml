@@ -35,6 +35,9 @@
         <param name="onload" value="true" />
     </feature>
     <access origin="https://accounts.google.com/*" />
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+    </feature>
     <name>Gigya Cordova Demo</name>
     <description>
         A sample Apache Cordova application using Gigya's SDK
@@ -65,4 +68,5 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
+    <preference name="deployment-target" value="7.0" />
 </widget>

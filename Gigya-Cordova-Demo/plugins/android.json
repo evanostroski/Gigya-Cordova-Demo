@@ -20,6 +20,9 @@
         },
         "cordova-plugin-googleplus": {
             "PACKAGE_NAME": "com.gigya.cordovaDemo"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.gigya.cordovaDemo"
         }
     },
     "dependent_plugins": {
