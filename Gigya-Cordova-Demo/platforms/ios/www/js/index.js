@@ -34,15 +34,18 @@ var app = {
         console.log(gigyaClient.getVersion());
         gigyaClient.addEventListener(gigyaClient.Event.LOGIN, this.onLogin);
         gigyaClient.addEventListener(gigyaClient.Event.LOGOUT, this.onLogout);
-        gigyaClient.showPlugin('accounts.screenSet', { screenSet: 'Default-RegistrationLogin' });
+        gigyaClient.showPlugin('accounts.screenSet', { screenSet: 'Default-RegistrationLogin' },
+        {
+          onLoad: function(event) { alert("load: " + event); }
+        });
     },
 
     onLogin: function() {
-        console.log('logged in');
+        alert('logged in');
     },
 
     onLogout: function() {
-        console.log('logged out');
+        alert('logged out');
     },
 
     // Update DOM on a Received Event
