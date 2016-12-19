@@ -14,9 +14,7 @@
             "subdir": "."
         },
         "is_top_level": true,
-        "variables": {
-            "GOOGLE_IOS_CLIENT_ID": "224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h.apps.googleusercontent.com"
-        }
+        "variables": {}
     },
     "es6-promise-plugin": {
         "source": {
@@ -38,24 +36,5 @@
             "APP_ID": "368592606648443",
             "APP_NAME": "Gigya-Mobile-Demos"
         }
-    },
-    "cordova-plugin-googleplus": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/gigya/cordova-plugin-googleplus",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {
-            "REVERSED_CLIENT_ID": "com.googleusercontent.apps.224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h"
-        }
-    },
-    "cordova-plugin-console": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-console"
-        },
-        "is_top_level": true,
-        "variables": {}
     }
 }

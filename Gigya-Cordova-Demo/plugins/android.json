@@ -17,12 +17,6 @@
             "APP_ID": "368592606648443",
             "APP_NAME": "Gigya-Mobile-Demos",
             "PACKAGE_NAME": "com.gigya.cordovaDemo"
-        },
-        "cordova-plugin-googleplus": {
-            "PACKAGE_NAME": "com.gigya.cordovaDemo"
-        },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.gigya.cordovaDemo"
         }
     },
     "dependent_plugins": {
