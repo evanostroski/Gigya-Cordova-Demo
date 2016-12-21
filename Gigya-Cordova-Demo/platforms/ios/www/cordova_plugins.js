@@ -21,41 +21,15 @@ module.exports = [
         "clobbers": [
             "facebookConnectPlugin"
         ]
-    },
-    {
-        "id": "cordova-plugin-googleplus.GooglePlus",
-        "file": "plugins/cordova-plugin-googleplus/www/GooglePlus.js",
-        "pluginId": "cordova-plugin-googleplus",
-        "clobbers": [
-            "window.plugins.googleplus"
-        ]
-    },
-    {
-        "id": "cordova-plugin-console.console",
-        "file": "plugins/cordova-plugin-console/www/console-via-logger.js",
-        "pluginId": "cordova-plugin-console",
-        "clobbers": [
-            "console"
-        ]
-    },
-    {
-        "id": "cordova-plugin-console.logger",
-        "file": "plugins/cordova-plugin-console/www/logger.js",
-        "pluginId": "cordova-plugin-console",
-        "clobbers": [
-            "cordova.logger"
-        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-whitelist": "1.3.0",
+    "cordova-plugin-whitelist": "1.3.1",
     "es6-promise-plugin": "3.0.2",
     "cordova-plugin-gigya": "1.0.0",
-    "cordova-plugin-facebook4": "1.7.1",
-    "cordova-plugin-googleplus": "4.0.9",
-    "cordova-plugin-console": "1.0.4"
+    "cordova-plugin-facebook4": "1.7.1"
 };
 // BOTTOM OF METADATA
 });

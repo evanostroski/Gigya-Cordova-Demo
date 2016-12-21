@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.gigya.cordovaDemo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Gigya Cordova Demo</name>
+    <name>cordovaDemo</name>
     <description>
-        A sample Apache Cordova application using Gigya's SDK
+        A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="evan.ostroski@gigya-inc.com" href="http://gigya.com">
-        Gigya Cordova Team
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -26,13 +26,10 @@
 	<preference name="deployment-target" value="7.0" />
     </platform>
     <plugin name="cordova-plugin-gigya" spec="https://github.com/gigya/cordova-plugin-gigya">
-        <variable name="GOOGLE_IOS_CLIENT_ID" value="224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h.apps.googleusercontent.com" />
+        <variable name="GOOGLE_IOS_CLIENT_ID" value="NONE" />
     </plugin>
     <plugin name="cordova-plugin-facebook4" spec="https://github.com/gigya/cordova-plugin-facebook4">
         <variable name="APP_ID" value="368592606648443" />
         <variable name="APP_NAME" value="Gigya-Mobile-Demos" />
-    </plugin>
-    <plugin name="cordova-plugin-googleplus" spec="https://github.com/gigya/cordova-plugin-googleplus">
-        <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.224059159380-llqo0j946bbl3s4rqu35kkolpmhpl07h" />
     </plugin>
 </widget>
